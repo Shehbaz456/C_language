@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sky{
+    height: 60vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.trees{
+    height: 100vh;
+    width: 100%;
+    background-image: url(trees-removebg.png);
+    background-size: cover;
+    position: absolute;
+}
+.track{
+    height: 60vh;
+    width: 100%;
+    background-image: url(track.png);
+    background-size: cover;
+    position: absolute;
+    top: 70vh;
+}
+
+.car{
+    height: 100px;
+    width: 380px;
+    background-image: url(car_body.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left : 480px;
+    bottom: 0;
+
+}
